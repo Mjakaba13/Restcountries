@@ -31,5 +31,7 @@ sendBtn.addEventListener("click", (e) => {
       `;
         });
       }
+      country.value = "";
     });
+  displayArea.innerHTML = null;
 });
